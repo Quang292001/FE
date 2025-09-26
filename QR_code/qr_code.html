@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Quét Mã QR</title>
+    <style>
+        body{
+            background-color: #d5e1ef;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: Arial, sans-serif;
+              height: 100vh; /* để card nằm giữa màn hình */
+        }
+        .card{
+            background-color: white;
+            align-items: center;
+            border-radius: 15px;
+                width: 300px;
+    padding: 15px;
+            
+        }
+        .card img{
+            border-radius: 15px;
+            width: 100%;
+        }
+        @media (max-width: 480px) {
+    .card {
+        width: 90%;        /* co lại theo chiều ngang màn hình */
+        padding: 10px;
+    }
+
+    .card h1 {
+        font-size: 16px;   /* chữ nhỏ hơn */
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+               <img src="image/image-qr-code.png" alt="">
+               <h4 href="">Improve your front-end skills by building projects</h4>
+               <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level!</p>
+    </div>
+</body>
+</html>
